@@ -2,6 +2,12 @@
 name = "rwst"
 version = "0.1.0"
 edition = "2021"
+authors = ["Dayvson Spacca spacca.dayvson@gmail.com"]
+description = "Test websockets servers via CLI"
+# readme = "README.md"
+repository = "https://github.com/dayvsonspacca/rwst"
+license = "MIT"
+keywords = ["ws", "websocket", "cli"]
 
 [dependencies]
 clap = { version = "4.5.16", features = ["derive"] }
