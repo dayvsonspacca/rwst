@@ -1,0 +1,10 @@
+[package]
+name = "rwst"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.16", features = ["derive"] }
+inquire = "0.7.5"
+colored = "2.1.0"
+tungstenite = "0.23.0"
